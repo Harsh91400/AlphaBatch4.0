@@ -1,0 +1,14 @@
+package C_04_If_else_statement;
+import java.util.*;
+public class number_odd_or_even {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if(a%2==0){
+            System.out.println("Given Number is Even Number");
+        }
+        else{
+            System.out.println("Given Number is Odd Number.");
+        }
+    }
+}
